@@ -1,0 +1,94 @@
+.process-wrapper {
+    width: 100vw;
+    padding-top: 150px;
+    height: 650px;
+    .process-container {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        h3 {
+            margin-bottom: 0;
+        }
+        .process-title {
+            font-size: 60px;
+        }
+        .process-scroll {
+            width: 100%;
+            background-color: #D9D9D9;
+            overflow:auto;
+            white-space: nowrap;
+            padding: 10px;
+            img {
+                width: 360px;
+                height: 240px;
+                padding: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1200px){
+    .process-wrapper{
+        padding-top: 85px;
+        height: 500px;
+        .process-container{
+            .process-title{
+                font-size: 40px;
+            }
+            .process-scroll {
+                img {
+                    width: 300px;
+                    height: 200px;
+                    padding:10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .process-wrapper{
+        padding-top: 50px;
+        height: 400px;
+        .process-container{
+            .process-title{
+                font-size: 30px;
+            }
+            .process-subtitle{
+                font-size: 20px;
+            }
+            .process-scroll{
+                img {
+                    width: 240px;
+                    height: 160px;
+                    padding: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .process-wrapper{
+        padding-top: 40px;
+        height: 200px;
+        .process-container{
+            width:90%;
+            gap: 10px;
+            .process-title{
+                font-size: 20px;
+            }
+            .process-subtitle{
+                font-size: 10px;
+            }
+            .process-scroll{
+                padding: 3px;
+                img {
+                    width: 120px;
+                    height: 80px;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#topnav-wrapper {
+    z-index : 20;
+    position:fixed;
+    top:0;
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.5);
+    .topnav-collapse{
+        justify-content: flex-end;
+    }
+}
+.offcanvas {
+    --bs-offcanvas-width: 50vw;
+}
